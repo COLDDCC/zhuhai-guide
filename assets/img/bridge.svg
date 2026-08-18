@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Hong Kong-Zhuhai-Macau bridge illustration">
+  <defs>
+    <linearGradient id="blu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe3f7"/>
+      <stop offset="0.55" stop-color="#eaf7ff"/>
+      <stop offset="1" stop-color="#e8dcc8"/>
+    </linearGradient>
+    <linearGradient id="wat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a90c9"/>
+      <stop offset="1" stop-color="#0b5d8a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="600" fill="url(#blu)"/>
+  <circle cx="150" cy="130" r="54" fill="#ffd98a"/>
+
+  <path d="M0 330 Q 300 300 600 325 T 1200 320 L1200 600 L0 600 Z" fill="url(#wat)"/>
+  <path d="M0 430 Q 400 405 800 428 T 1200 425 L1200 600 L0 600 Z" fill="#0b5d8a" opacity="0.8"/>
+  <path d="M0 520 Q 350 500 700 520 T 1200 518 L1200 600 L0 600 Z" fill="#073d5c" opacity="0.85"/>
+
+  <g>
+    <rect x="106" y="240" width="66" height="96" rx="6" fill="#d8c9b0"/>
+    <rect x="112" y="250" width="14" height="86" fill="#e8dcc8"/>
+    <rect x="132" y="250" width="14" height="86" fill="#e8dcc8"/>
+    <rect x="152" y="250" width="14" height="86" fill="#e8dcc8"/>
+    <path d="M102 250 L196 250 L188 240 L110 240 Z" fill="#cbb492"/>
+  </g>
+  <g>
+    <rect x="920" y="250" width="66" height="96" rx="6" fill="#d8c9b0"/>
+    <rect x="926" y="260" width="14" height="86" fill="#e8dcc8"/>
+    <rect x="946" y="260" width="14" height="86" fill="#e8dcc8"/>
+    <rect x="966" y="260" width="14" height="86" fill="#e8dcc8"/>
+    <path d="M916 260 L1010 260 L1002 250 L924 250 Z" fill="#cbb492"/>
+  </g>
+
+  <g>
+    <path d="M140 320 L1060 320 L1060 336 L140 336 Z" fill="#d8c9b0"/>
+    <path d="M120 348 L1080 348 L1080 366 L120 366 Z" fill="#e8dcc8"/>
+    <g stroke="#d8c9b0" stroke-width="8">
+      <line x1="300" y1="240" x2="300" y2="366"/>
+      <line x1="330" y1="240" x2="330" y2="366"/>
+      <line x1="560" y1="255" x2="560" y2="366"/>
+      <line x1="590" y1="255" x2="590" y2="366"/>
+      <line x1="820" y1="250" x2="820" y2="366"/>
+      <line x1="850" y1="250" x2="850" y2="366"/>
+    </g>
+    <path d="M290 240 L860 240 L860 250 L290 250 Z" fill="#d8c9b0"/>
+  </g>
+
+  <g transform="translate(600 262)">
+    <rect x="0" y="0" width="120" height="34" rx="8" fill="#fff" stroke="#0b5d8a" stroke-width="3"/>
+    <rect x="12" y="10" width="44" height="14" rx="4" fill="#0b5d8a" opacity="0.85"/>
+    <rect x="64" y="10" width="44" height="14" rx="4" fill="#0b5d8a" opacity="0.5"/>
+    <circle cx="14" cy="17" r="3" fill="#ffe08a"/>
+    <circle cx="106" cy="17" r="3" fill="#7ecf8a"/>
+  </g>
+
+  <g fill="#0b5d8a">
+    <path d="M470 440 q 10 -12 20 0 q 10 12 0 26 q -10 12 -20 0 q -10 -14 0 -26 Z" opacity="0.6"/>
+    <path d="M980 455 q 14 -16 28 0 q 14 16 0 34 q -14 16 -28 0 q -14 -18 0 -34 Z" opacity="0.6"/>
+  </g>
+</svg>

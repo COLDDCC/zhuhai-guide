@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Zhuhai neighborhood map illustration">
+  <defs>
+    <linearGradient id="mg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfeef7"/>
+      <stop offset="1" stop-color="#cfe6f2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="600" fill="url(#mg)"/>
+
+  <path d="M0 150 L1200 150 L1200 170 L0 170 Z" fill="#e8dcc8"/>
+  <g stroke="#0b5d8a" stroke-width="5" fill="none">
+    <path d="M80 120 Q 260 90 460 120 T 820 130 T 1140 120"/>
+    <path d="M120 200 Q 340 170 560 205 T 1080 195"/>
+    <path d="M60 320 Q 380 285 720 320 T 1180 310"/>
+    <path d="M150 80 L150 560"/>
+    <path d="M420 70 L400 560"/>
+    <path d="M780 80 L800 560"/>
+    <path d="M1060 70 L1080 560"/>
+  </g>
+  <g stroke="#fff" stroke-width="3" fill="none" opacity="0.7">
+    <path d="M120 205 Q 300 180 520 210 T 1040 205"/>
+    <path d="M160 125 Q 250 95 440 118"/>
+  </g>
+
+  <g transform="translate(240 240)">
+    <rect x="0" y="0" width="150" height="86" rx="10" fill="#fff" stroke="#0b5d8a" stroke-width="3"/>
+    <rect x="10" y="14" width="130" height="16" rx="4" fill="#0b5d8a"/>
+    <rect x="10" y="38" width="130" height="8" rx="4" fill="#9fb9c9"/>
+    <rect x="10" y="52" width="130" height="8" rx="4" fill="#9fb9c9"/>
+    <rect x="10" y="66" width="60" height="8" rx="4" fill="#ee6c4d"/>
+    <text x="75" y="-8" font-family="Arial" font-size="16" font-weight="bold" fill="#0b5d8a" text-anchor="middle">Gongbei</text>
+  </g>
+
+  <g transform="translate(560 250)">
+    <rect x="0" y="0" width="150" height="86" rx="10" fill="#fff" stroke="#0b5d8a" stroke-width="3"/>
+    <rect x="10" y="14" width="130" height="16" rx="4" fill="#0b7ea6"/>
+    <rect x="10" y="38" width="130" height="8" rx="4" fill="#9fb9c9"/>
+    <rect x="10" y="52" width="130" height="8" rx="4" fill="#9fb9c9"/>
+    <rect x="10" y="66" width="60" height="8" rx="4" fill="#ee6c4d"/>
+    <text x="75" y="-8" font-family="Arial" font-size="16" font-weight="bold" fill="#0b5d8a" text-anchor="middle">Xiangzhou</text>
+  </g>
+
+  <g transform="translate(880 220)">
+    <rect x="0" y="0" width="150" height="86" rx="10" fill="#fff" stroke="#0b5d8a" stroke-width="3"/>
+    <rect x="10" y="14" width="130" height="16" rx="4" fill="#ee6c4d"/>
+    <rect x="10" y="38" width="130" height="8" rx="4" fill="#9fb9c9"/>
+    <rect x="10" y="52" width="130" height="8" rx="4" fill="#9fb9c9"/>
+    <rect x="10" y="66" width="60" height="8" rx="4" fill="#ee6c4d"/>
+    <text x="75" y="-8" font-family="Arial" font-size="16" font-weight="bold" fill="#0b5d8a" text-anchor="middle">Hengqin</text>
+  </g>
+
+  <g fill="#ee6c4d">
+    <circle cx="315" cy="283" r="6"/>
+    <circle cx="635" cy="293" r="6"/>
+    <circle cx="955" cy="263" r="6"/>
+  </g>
+  <g stroke="#ee6c4d" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M500 350 q 20 -14 40 -20 M620 330 q 30 10 50 24"/>
+  </g>
+
+  <path d="M0 430 Q 300 405 600 430 T 1200 428 L1200 600 L0 600 Z" fill="#9fdcff" opacity="0.7"/>
+  <path d="M0 490 Q 400 470 760 495 T 1200 490 L1200 600 L0 600 Z" fill="#7fb8e0" opacity="0.6"/>
+  <path d="M80 520 q 8 -10 16 0 q 8 10 0 20 q -8 10 -16 0 q -8 -10 0 -20" fill="#0b5d8a" opacity="0.7"/>
+  <path d="M980 535 q 8 -10 16 0 q 8 10 0 20 q -8 10 -16 0 q -8 -10 0 -20" fill="#0b5d8a" opacity="0.7"/>
+</svg>

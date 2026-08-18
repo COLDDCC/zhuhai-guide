@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Ocean kingdom aquarium illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#083a63"/>
+      <stop offset="1" stop-color="#0e6db0"/>
+    </linearGradient>
+    <linearGradient id="dome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5fb9e8"/>
+      <stop offset="1" stop-color="#1a7fbd"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.5">
+      <stop offset="0" stop-color="#9fdcff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#083a63" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <rect width="1200" height="600" fill="url(#glow)"/>
+
+  <g opacity="0.35">
+    <circle cx="120" cy="120" r="3" fill="#9fdcff" id="b1"/>
+    <circle cx="300" cy="90" r="2.5" fill="#9fdcff"/>
+    <circle cx="980" cy="110" r="3" fill="#9fdcff"/>
+    <circle cx="1060" cy="240" r="2.5" fill="#9fdcff"/>
+  </g>
+
+  <path d="M0 460 Q 300 420 600 450 T 1200 440 L1200 600 L0 600 Z" fill="#0a3054"/>
+  <path d="M0 520 Q 400 480 800 510 T 1200 505 L1200 600 L0 600 Z" fill="#07263f"/>
+
+  <g transform="translate(260 300)">
+    <path d="M90 150 A 180 180 0 0 1 450 150 L450 160 L90 160 Z" fill="url(#dome)" stroke="#e8f4fb" stroke-width="5"/>
+    <line x1="90" y1="150" x2="450" y2="150" stroke="#e8f4fb" stroke-width="5"/>
+    <rect x="80" y="155" width="380" height="16" rx="8" fill="#e8f4fb"/>
+    <rect x="150" y="171" width="230" height="16" rx="8" fill="#9fb9c9"/>
+    <path d="M110 300 Q 120 260 150 250 Q 180 258 180 300 Z" fill="#e8f4fb" opacity="0.9"/>
+    <path d="M130 300 Q 135 275 155 268 Q 175 275 178 300 Z" fill="#a7d9f5" opacity="0.9"/>
+    <circle cx="215" cy="290" r="26" fill="#7fb8e0"/>
+    <path d="M189 290 q 26 -30 52 0 q 26 30 0 46 q 0 30 -52 0 q -26 0 0 -46" fill="#5e9cc8" opacity="0.85"/>
+    <circle cx="430" cy="285" r="30" fill="#8ec7ee"/>
+    <path d="M400 285 q 30 -34 60 0 q 30 34 0 52 q 0 34 -60 0 q -30 0 0 -52" fill="#5e9cc8" opacity="0.9"/>
+    <circle cx="320" cy="150" r="9" fill="#fff6c4" opacity="0.8"/>
+    <path d="M300 118 A 200 200 0 0 1 330 112" stroke="#fff" stroke-width="4" fill="none" opacity="0.7" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(540 470)">
+    <path d="M0 30 C 20 10, 40 10, 60 30 C 60 46, 45 66, 30 82 C 15 66, 0 46, 0 30 Z" fill="#f6efe4"/>
+    <path d="M8 32 L52 32 L52 74 L8 74 Z" fill="#073d5c"/>
+    <path d="M14 38 L46 38 L46 42 L14 42 Z" fill="#f6efe4"/>
+    <path d="M14 48 L46 48 L46 52 L14 52 Z" fill="#f6efe4"/>
+    <path d="M14 58 L46 58 L46 62 L14 62 Z" fill="#f6efe4"/>
+  </g>
+
+  <g fill="#fff" opacity="0.85">
+    <path d="M70 300 q 10 -12 20 0 q 10 12 0 26 q -10 12 -20 0 q -10 -14 0 -26 Z"/>
+    <path d="M1116 330 q 14 -16 28 0 q 14 16 0 34 q -14 16 -28 0 q -14 -18 0 -34 Z"/>
+  </g>
+
+  <path d="M1180 150 q 8 -13 16 0 q 8 13 0 26 q -8 13 -16 0 q -8 -13 0 -26" stroke="#ff8f6b" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="1188" cy="132" r="3.5" fill="#ff8f6b"/>
+</svg>

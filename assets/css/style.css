@@ -145,8 +145,8 @@ a { color: var(--ocean); }
 .update-item .when { color: var(--coral); font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; min-width: 74px; }
 .update-item p { margin: 0; font-size: 14.5px; }
 .update-item a { font-weight: 600; }
-.updated-stamp { display: inline-flex; align-items: center; gap: 8px; background: var(--ocean-light); color: var(--ocean); padding: 6px 14px; border-radius: 999px; font-size: 13px; font-weight: 600; margin-top: 14px; }
-.updated-stamp::before { content: "🕓"; }
+
+.two-col { columns: 2 260px; column-gap: 40px; }
 
 /* ---------- Article / prose pages ---------- */
 .page-head { background: linear-gradient(135deg, #07415f, #0b6eb0); color: #fff; padding: 44px 0 52px; }
@@ -240,6 +240,20 @@ details.faq p { margin-top: 0; color: #32424c; }
 
 /* ---------- Misc ---------- */
 .subtle { color: var(--ink-soft); font-size: 14px; }
+/* ---------- Images ---------- */
+.img-frame { border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-lg); background: var(--ocean-light); }
+.img-frame img { width: 100%; height: auto; object-fit: cover; }
+figure.image { margin: 26px 0; }
+figure.image figcaption { font-size: 13px; color: var(--ink-soft); margin-top: 8px; }
+.hero-art { margin-top: 32px; }
+.hero-art .img-frame { border: 1px solid rgba(255,255,255,0.25); box-shadow: 0 20px 60px rgba(0,0,0,0.35); }
+
+/* ---------- Update stamps ---------- */
+.updated-stamp { display: inline-flex; align-items: center; gap: 8px; background: var(--ocean-light); color: var(--ocean); padding: 6px 14px; border-radius: 999px; font-size: 13px; font-weight: 600; margin: 4px 0 8px; }
+.updated-stamp::before { content: "🕓"; }
+.updated-stamp.stale { background: #fff3e2; color: #b45309; border: 1px solid #f2c66d; }
+.updated-stamp.stale::before { content: "⚠️"; }
+
 .two-col { columns: 2 260px; column-gap: 40px; }
 .pad-top { padding-top: 40px; }
 .center { text-align: center; }

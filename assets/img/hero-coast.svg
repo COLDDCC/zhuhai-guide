@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Zhuhai coastline illustration">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a7fbd"/>
+      <stop offset="0.6" stop-color="#6fc3e8"/>
+      <stop offset="1" stop-color="#ffe3b3"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e6db0"/>
+      <stop offset="1" stop-color="#073d5c"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff3c4"/>
+      <stop offset="1" stop-color="#ffb347"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="600" fill="url(#sky)"/>
+  <circle cx="900" cy="210" r="90" fill="url(#sun)" opacity="0.95"/>
+
+  <g opacity="0.5" fill="#ffffff">
+    <circle cx="160" cy="150" r="3"/><circle cx="220" cy="120" r="4"/>
+    <circle cx="330" cy="170" r="3"/><circle cx="690" cy="110" r="3"/>
+    <circle cx="1020" cy="140" r="4"/><circle cx="1110" cy="200" r="3"/>
+  </g>
+
+  <path d="M0 300 C 200 280, 380 330, 560 310 C 740 290, 900 340, 1200 315 L1200 600 L0 600 Z" fill="url(#sea)"/>
+  <path d="M0 380 C 260 350, 520 400, 800 370 C 960 352, 1100 390, 1200 372 L1200 600 L0 600 Z" fill="#0b5d8a" opacity="0.85"/>
+  <path d="M0 470 C 300 445, 620 500, 900 465 C 1020 452, 1120 480, 1200 468 L1200 600 L0 600 Z" fill="#073d5c" opacity="0.9"/>
+
+  <path d="M60 430 C 140 410, 220 425, 300 415" stroke="#e8f4fb" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M620 450 C 700 435, 790 450, 870 440" stroke="#e8f4fb" stroke-width="3" fill="none" opacity="0.4"/>
+  <path d="M1000 470 C 1060 458, 1120 470, 1180 462" stroke="#e8f4fb" stroke-width="2.5" fill="none" opacity="0.4"/>
+
+  <g transform="translate(210 300)">
+    <path d="M60 0 L56 90 L50 175 L52 210 L66 214 L64 120 L70 0 Z" fill="#f6efe4"/>
+    <circle cx="66" cy="14" r="10" fill="#f6efe4"/>
+    <rect x="60" y="210" width="6" height="26" fill="#d8c9b0"/>
+    <rect x="54" y="236" width="22" height="8" rx="3" fill="#d8c9b0"/>
+    <path d="M38 0 Q 60 -16 82 0 L78 26 Q 60 14 42 26 Z" fill="#fbf7ef"/>
+    <circle cx="46" cy="2" r="14" fill="#fbf7ef"/>
+    <path d="M70 30 Q 96 44 120 38" stroke="#c9d6df" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <circle cx="126" cy="34" r="4" fill="#ff8f6b"/>
+  </g>
+
+  <g transform="translate(980 316)">
+    <path d="M0 26 C 18 18, 34 6, 30 -8 C 26 -16, 10 -12, 0 0 C -10 -12, -26 -16, -30 -8 C -34 6, -18 18, 0 26 Z" fill="#fff" opacity="0.92"/>
+    <circle cx="0" cy="12" r="3.6" fill="#073d5c"/>
+    <rect x="-2.2" y="14" width="4.4" height="12" rx="2" fill="#073d5c"/>
+  </g>
+  <g transform="translate(640 330) scale(0.8)">
+    <path d="M0 26 C 18 18, 34 6, 30 -8 C 26 -16, 10 -12, 0 0 C -10 -12, -26 -16, -30 -8 C -34 6, -18 18, 0 26 Z" fill="#fff" opacity="0.8"/>
+    <circle cx="0" cy="12" r="3.6" fill="#073d5c"/>
+    <rect x="-2.2" y="14" width="4.4" height="12" rx="2" fill="#073d5c"/>
+  </g>
+
+  <g transform="translate(430 360)" stroke="#f6efe4" stroke-width="2.2" fill="none" stroke-linecap="round">
+    <path d="M0 0 L14 -8 L14 8 Z"/>
+    <path d="M10 4 L24 6"/>
+  </g>
+  <g transform="translate(760 385) rotate(-12)" stroke="#f6efe4" stroke-width="2.2" fill="none" stroke-linecap="round">
+    <path d="M0 0 L14 -8 L14 8 Z"/>
+    <path d="M10 4 L24 6"/>
+  </g>
+  <path d="M400 200 q 6 -10 12 0 q 6 -10 12 0" stroke="#f6efe4" stroke-width="3" fill="none" opacity="0.8"/>
+  <path d="M712 150 q 6 -10 12 0 q 6 -10 12 0" stroke="#f6efe4" stroke-width="3" fill="none" opacity="0.8"/>
+  <path d="M520 130 q 5 -9 10 0 q 5 -9 10 0" stroke="#f6efe4" stroke-width="3" fill="none" opacity="0.7"/>
+</svg>
