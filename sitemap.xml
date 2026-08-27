@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://colddcc.github.io/zhuhai-guide/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://colddcc.github.io/zhuhai-guide/how-to-get.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://colddcc.github.io/zhuhai-guide/lovers-road.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://colddcc.github.io/zhuhai-guide/chimelong.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://colddcc.github.io/zhuhai-guide/accommodation.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://colddcc.github.io/zhuhai-guide/seafood.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://colddcc.github.io/zhuhai-guide/emergency-cleaning.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://colddcc.github.io/zhuhai-guide/</loc><lastmod>2026-08-27</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://colddcc.github.io/zhuhai-guide/how-to-get.html</loc><lastmod>2026-08-27</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://colddcc.github.io/zhuhai-guide/lovers-road.html</loc><lastmod>2026-08-27</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://colddcc.github.io/zhuhai-guide/chimelong.html</loc><lastmod>2026-08-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://colddcc.github.io/zhuhai-guide/accommodation.html</loc><lastmod>2026-08-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://colddcc.github.io/zhuhai-guide/seafood.html</loc><lastmod>2026-08-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://colddcc.github.io/zhuhai-guide/emergency-cleaning.html</loc><lastmod>2026-08-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
 </urlset>
